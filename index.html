@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="A web page that detects if an integer was inputted." />
+    <meta name="keywords" content="Integers, function" />
+    <meta name="author" content="Rodas Nega" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Choose your Number!</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1 style="text-align:center;">Hello, World!</h1>
+    <h3 style="text-align:center;">Think of any number in the world!<h2>
+    <form>
+      <label for="whole-number">What's your number?</label>
+      <br>
+      <br>
+      <input type="text" id="whole-number" size="2">
+      <br>
+      <br>
+      <button onclick="document.getElementById('whole-number').innerHTML = displayInteger()">Submit</button>
+      <br>
+      <br>
+      <br>
+      <img src="./images/wavinghand.gif" alt="Waving Hand" height="100px" width="100px">
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
