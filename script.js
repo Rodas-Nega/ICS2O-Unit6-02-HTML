@@ -12,6 +12,6 @@ function displayInteger () {
     alert('Your number is a negative.')
   // the >= symbol is used to detect positives.
   } else if (number >= 0) {
-    alert('Your number is a positive.') 
+    alert('Your number is a positive.')
   }
 }
